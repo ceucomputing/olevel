@@ -1,0 +1,8 @@
+INPUT Choice
+INPUT Amount
+
+IF Choice = "Ringgit"
+    OUTPUT Amount * 3
+ELSE
+    OUTPUT Amount * 4.66
+ENDIF

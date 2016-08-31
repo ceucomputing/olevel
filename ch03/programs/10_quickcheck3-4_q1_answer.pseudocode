@@ -1,0 +1,19 @@
+INPUT number
+CASE number
+1:
+    OUTPUT "one"
+2:
+    OUTPUT "two"
+3:
+    OUTPUT "three"
+4:
+    OUTPUT "four"
+5:
+    OUTPUT "five"
+6:
+    OUTPUT "six"
+7:
+    OUTPUT "seven"
+OTHERWISE
+    OUTPUT "Invalid input"
+ENDCASE

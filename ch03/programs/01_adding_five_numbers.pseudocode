@@ -1,0 +1,8 @@
+result = 0
+counter = 0
+WHILE counter < 5
+    INPUT x
+    result = result + x
+    counter = counter + 1
+ENDWHILE
+OUTPUT result

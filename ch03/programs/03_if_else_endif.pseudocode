@@ -1,0 +1,6 @@
+INPUT text
+IF text = "P@55w0rd"
+    OUTPUT "Yes"
+ELSE 
+    OUTPUT "No"
+ENDIF

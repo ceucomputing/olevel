@@ -1,0 +1,29 @@
+Count = 0
+Type = 0
+ClubSociety_Count = 0
+Sport_Count = 0
+UniformedGroup_Count = 0
+
+WHILE Count < 5
+    INPUT Type
+    IF Type = "Club/Society"
+        ClubSociety_Count = ClubSociety_Count + 1
+        Count = Count + 1
+    ELSE
+        IF Type = "Sport"
+            Sport_Count = Sport_Count + 1
+            Count = Count + 1
+        ELSE
+            IF Type = "Uniformed Group"
+                UniformedGroup_Count = UniformedGroup_Count + 1
+                Count = Count + 1
+            ELSE
+                OUTPUT "Invalid Option"
+            ENDIF
+        ENDIF
+    ENDIF
+ENDWHILE
+
+OUTPUT "Clubs and Societies: " + ClubSociety_Count
+OUTPUT "Sports: " + Sport_Count
+OUTPUT "Uniformed Groups: " + UniformedGroup_Count

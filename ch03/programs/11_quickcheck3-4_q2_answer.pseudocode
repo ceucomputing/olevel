@@ -1,0 +1,7 @@
+sum = 0
+FOR i = 1 to 10
+    INPUT number
+    sum = sum + number
+NEXT
+average = sum / 10
+OUTPUT average

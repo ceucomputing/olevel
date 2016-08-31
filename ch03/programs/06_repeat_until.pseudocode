@@ -1,0 +1,4 @@
+REPEAT
+    INPUT name
+UNTIL name is not equal to ""
+OUTPUT "Hello " + name

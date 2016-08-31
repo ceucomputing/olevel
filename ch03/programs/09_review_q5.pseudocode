@@ -1,0 +1,12 @@
+Count = 0
+Sum = 0
+
+REPEAT
+    INPUT Num
+    Sum = Sum + Num
+    Count = Count + 1
+UNTIL Count = 7
+
+Average = Sum / Count
+OUTPUT "The sum is " + Sum
+OUTPUT "The average is " + Average
