@@ -1,7 +1,3 @@
-# Variable declarations
-# password       : str
-# password_again : list
-
 # Input, Process and Output
 while True:
     password = input("Enter password: ")

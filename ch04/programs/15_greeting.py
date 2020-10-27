@@ -1,7 +1,4 @@
-# Variable declarations
-# name : str
-
-name = "Computing"
+name = ""
 while name == "":
     name = input("Enter name: ")
 print("Hello " + name)

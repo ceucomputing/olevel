@@ -2,16 +2,6 @@
 # and an end time, both provided in the format "HH:MM:SS". It is
 # assumed that input data will always be valid.
 
-# Variable declarations
-# start_time  : str (Start time string)
-# start_total : int (Total number of seconds for start time)
-# end_time    : str (End time string)
-# end_total   : int (Total number of seconds for end time)
-# hours       : int (Hours value)
-# minutes     : int (Minutes value)
-# seconds     : int (Seconds value)
-# interval    : int (The required interval, in seconds)
-
 # Input
 start_time = input("Enter start time string: ")
 end_time = input("Enter end time string: ")

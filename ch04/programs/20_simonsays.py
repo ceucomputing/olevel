@@ -2,9 +2,6 @@
 MAGIC_WORDS = "Simon says "
 QUIT_COMMAND = "Quit"
 
-# Variable declarations
-# command : str
-
 print("Enter \"" + QUIT_COMMAND + "\" to end game.")
 while True:
     command = input("Enter command: ")

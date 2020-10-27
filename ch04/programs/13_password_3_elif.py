@@ -1,6 +1,3 @@
-# Variable declarations
-# text : str
-
 text = input("Enter text: ")
 if text == "":
     print("Blank Input Not Allowed")

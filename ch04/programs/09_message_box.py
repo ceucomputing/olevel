@@ -1,6 +1,3 @@
-# Variable declarations
-# message : str
-
 message = input("Enter a message: ")
 print()
 print("*" * (len(message) + 4))

@@ -1,7 +1,3 @@
-# Variable declarations
-# input_str : str
-# result    : list
-
 # Input and Process
 result = []
 while True:
