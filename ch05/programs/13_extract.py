@@ -1,8 +1,3 @@
-# Variable declarations
-# original : str
-# extract  : str
-# index    : int
-
 # Input
 original = input("Enter a string of characters: ")
 

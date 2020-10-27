@@ -1,14 +1,6 @@
 # This program calculates the check digit of a Universal Product Code
 # (UPC-A) based on the first 11 digits of the code.
 
-# Variable declarations
-# upc         : str
-# odd_sum     : int
-# even_sum    : int
-# index       : int
-# digit       : int
-# check_digit : int
-
 # Input
 upc = input("Enter first 11 digits of UPC-A: ")
 

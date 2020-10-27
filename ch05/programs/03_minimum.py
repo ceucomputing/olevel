@@ -1,9 +1,3 @@
-# Variable declarations
-# values        : list
-# minimum_value : float
-# minimum_index : int
-# index         : int
-
 # Input
 values = [16, 64, 4, 128, 8, 2, 1, 32]
 

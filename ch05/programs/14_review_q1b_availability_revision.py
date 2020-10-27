@@ -13,10 +13,12 @@ availability = [
 search = input("Enter title of book to check: ")
 
 # Process
+result = "Book Not Found"
 index = 0
 while index < len(titles):
     if titles[index] == search:
         result = availability[index]
+        break
     index = index + 1
 
 # Output

@@ -1,9 +1,3 @@
-# Variable declarations
-# values       : list
-# search       : str
-# index        : int
-# search_index : int
-
 # Input
 values = ["Alex", "Bala", "Siti", "Zee"]
 search = input("Enter name: ")

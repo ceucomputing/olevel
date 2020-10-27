@@ -1,10 +1,3 @@
-# Variable declarations
-# values                : list
-# item                  : str
-# minimum_value         : int
-# second_minimum_value  : int
-# value                 : int
-
 # Input
 values = []
 while True:

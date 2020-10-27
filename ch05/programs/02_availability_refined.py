@@ -1,15 +1,15 @@
-# This program checks the availability of a book using its title.
-
-# Variable declarations
-# titles       : list
-# availability : list
-# search       : str
-# index        : int
-# result       : str
-
 # Input
-titles = open("titles.txt").read().splitlines()
-availability = open("availability.txt").read().splitlines()
+titles = [
+    # The following data is copied from the given text file.
+    "How to Solve a Mystery", "Vacant Memories", 
+    "The Cybersnake Chronicles", "Music History", 
+    "Like Tears in Rain", "Out of the Abyss"
+]
+availability = [
+    # The following data is copied from the given text file.
+    "Not Available", "Available", "Available", "Not Available",
+    "Not Available", "Available"
+]
 search = input("Enter title of book to check: ")
 
 # Process
