@@ -1,0 +1,8 @@
+INPUT text
+IF text == "" THEN
+    OUTPUT "Blank"
+ELSEIF text == "P@55w0rd" THEN
+    OUTPUT "Yes"
+ELSE
+    OUTPUT "No" 
+ENDIF

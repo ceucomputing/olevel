@@ -1,5 +1,5 @@
 INPUT text
-IF text = "P@55w0rd"
+IF text == "P@55w0rd" THEN
     OUTPUT "Yes"
 ELSE 
     OUTPUT "No"

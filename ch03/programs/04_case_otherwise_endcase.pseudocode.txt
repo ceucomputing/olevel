@@ -1,9 +1,0 @@
-INPUT text
-CASE text
-"":
-    OUTPUT "Blank Input Not Allowed"
-"P@55w0rd":
-    OUTPUT "Correct Password"
-OTHERWISE
-    OUTPUT "Wrong Password"
-ENDCASE

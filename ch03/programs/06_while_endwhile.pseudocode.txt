@@ -1,5 +1,5 @@
 name = ""
-WHILE name = ""
+WHILE name == ""
     INPUT name
 ENDWHILE
 OUTPUT "Hello " + name

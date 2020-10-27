@@ -1,11 +1,11 @@
 Count = 0
 Sum = 0
 
-REPEAT
+WHILE Count != 7
     INPUT Num
     Sum = Sum + Num
     Count = Count + 1
-UNTIL Count = 7
+ENDWHILE
 
 Average = Sum / Count
 OUTPUT "The sum is " + Sum

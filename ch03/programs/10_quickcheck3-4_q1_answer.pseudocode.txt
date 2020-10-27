@@ -1,19 +1,18 @@
 INPUT number
-CASE number
-1:
+IF number == 1 THEN
     OUTPUT "one"
-2:
+ELSEIF number == 2 THEN
     OUTPUT "two"
-3:
+ELSEIF number == 3 THEN
     OUTPUT "three"
-4:
+ELSEIF number == 4 THEN
     OUTPUT "four"
-5:
+ELSEIF number == 5 THEN
     OUTPUT "five"
-6:
+ELSEIF number == 6 THEN
     OUTPUT "six"
-7:
+ELSEIF number == 7 THEN
     OUTPUT "seven"
-OTHERWISE
+ELSE
     OUTPUT "Invalid input"
-ENDCASE
+ENDIF

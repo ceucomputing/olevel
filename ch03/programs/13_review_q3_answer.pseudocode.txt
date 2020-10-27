@@ -1,7 +1,7 @@
 INPUT Choice
 INPUT Amount
 
-IF Choice = "Ringgit"
+IF Choice == "Ringgit" THEN
     OUTPUT Amount * 3
 ELSE
     OUTPUT Amount * 4.66

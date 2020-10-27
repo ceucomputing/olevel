@@ -1,7 +1,7 @@
 INPUT x
 counter = 0
-WHILE x is not 1
-    IF x is even
+WHILE x != 1
+    IF x is even THEN
         x = x / 2
     ELSE
         x = 3x + 1
