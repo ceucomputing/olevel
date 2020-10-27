@@ -1,7 +1,3 @@
-# Variable declarations
-# score : int
-# grade : str
-
 # Input and input validation
 score = None
 while score == None:

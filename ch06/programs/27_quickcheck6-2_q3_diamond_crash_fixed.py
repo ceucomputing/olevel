@@ -15,7 +15,7 @@ while True:
 # Process and output
 stars = []
 index = 1
-while index < n:
+while index <= n:
     stars += [" " * ((n - index) // 2) + "*" * index]
     index += 2
 

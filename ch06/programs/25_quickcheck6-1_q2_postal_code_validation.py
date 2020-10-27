@@ -1,6 +1,3 @@
-# Variable declarations
-# postal_code : str
-
 # Input and input validation
 while True:
     postal_code = input("Enter postal code: ")

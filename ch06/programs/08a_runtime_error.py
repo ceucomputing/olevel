@@ -7,11 +7,8 @@ while True:
     values += [int(input_str)]
 
 # Process
-if len(values) > 0:
-    sum_values = sum(values)
-    average = sum_values / len(values)
-else:
-    average = None
+sum_values = sum(values)
+average = sum_values / len(values)
 
 # Output
 print(average)

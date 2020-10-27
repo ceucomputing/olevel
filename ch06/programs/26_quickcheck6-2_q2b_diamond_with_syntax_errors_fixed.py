@@ -1,8 +1,3 @@
-# Variable declarations
-# input_text : str
-# n          : int
-# index      : int
-
 # Input and input validation
 while True:
     input_text = input("Enter n: ")
